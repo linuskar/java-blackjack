@@ -22,8 +22,8 @@ public class AppWindow extends JFrame
     final int WIDTH = 600;
     final int HEIGHT = 500;
 
-	public AppWindow()
-    {
+	public AppWindow() {
+
         super("Blackjack");
         
         addComponentListener(this);

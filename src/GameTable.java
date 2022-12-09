@@ -23,7 +23,7 @@ public class GameTable extends JPanel
     
     private Font handTotalFont;
     private Font playerNameFont;
-    
+     
     private String dealerName;
     private String playerName;
     
