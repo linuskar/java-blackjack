@@ -6,13 +6,11 @@ public class SimpleFileFilter extends FileFilter
     private String extension = "";
     private String description = "";
     
-    public SimpleFileFilter()
-    {
+    public SimpleFileFilter() {
         
     }
     
-    public SimpleFileFilter(String extension, String description)
-    {
+    public SimpleFileFilter(String extension, String description) {
         if (extension != null)
         {
             this.extension = extension;
