@@ -29,8 +29,7 @@ public class Card
      * @param   suit    The Suit of the card.
      * @param   code    The card number in a pack.
      */
-    public Card(Face face, Suit suit, int code)
-    {
+    public Card(Face face, Suit suit, int code){
         setFace(face);
         setSuit(suit);
         setCode(code);

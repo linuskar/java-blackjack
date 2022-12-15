@@ -9,8 +9,7 @@ import Cards.*;
  *
  * @author David Winter
  */
-public class Player extends BlackjackPlayer implements Serializable
-{
+public class Player extends BlackjackPlayer implements Serializable {
     /**
      * The card hand the player holds.
      */

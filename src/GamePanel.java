@@ -181,6 +181,7 @@ public class GamePanel extends JPanel implements ActionListener
             {
                 newGameButton.setEnabled(false);
             }
+
             hitButton.setEnabled(false);
             doubleButton.setEnabled(false);
             standButton.setEnabled(false);
@@ -261,6 +262,7 @@ public class GamePanel extends JPanel implements ActionListener
             add25Chip.setEnabled(false);
             add100Chip.setEnabled(false);
         }
+
         
         // redraw cards and totals
         table.update(dealer.getHand(), player.getHand(), (dealer.areCardsFaceUp()) ? true : false);
